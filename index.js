@@ -162,7 +162,7 @@ const generateCrud = async (crudPath, modelName, crudTypes) => {
 };
 
 try {
-  console.log(pastel(figlet.textSync("NF-Gen", { horizontalLayout: "full" })));
+  console.log(pastel(figlet.textSync("NF-CLI", { horizontalLayout: "full" })));
 
   console.log(chalk.yellow("This script will create a new model-CRUD in the specified path"));
 
